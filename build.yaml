@@ -1,5 +1,5 @@
 include:
-  - board: nice_nano_v2
+  - board: nrf52840_m2
     shield: draculad_left
-  - board: nice_nano_v2
+  - board: nrf52840_m2
     shield: draculad_right
