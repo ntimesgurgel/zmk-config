@@ -1,13 +1,13 @@
 manifest:
-  remotes:
-    - name: mangoiv-zmk
-      url-base: https://github.com/MangoIV
-    # Additional modules containing boards/shields/custom code can be listed here as well
-    # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
-  projects:
-    - name: zmk
-      remote: mangoiv-zmk
-      revision: draculad
-      import: app/west.yml
-  self:
-    path: config
+    remotes:
+      - name: zmkfirmware
+        url-base: https://github.com/zmkfirmware
+      - name: ntimesgurgel
+        url-base: https://github.com/ntimesgurgel
+    projects:
+      - name: zmk
+        remote: zmkfirmware
+        revision: main   
+        import: app/west.yml
+    self:
+      path: config
