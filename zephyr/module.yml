@@ -1,0 +1,5 @@
+name: zmk-keyboard-draculad
+
+build:
+  settings:
+    board_root: .

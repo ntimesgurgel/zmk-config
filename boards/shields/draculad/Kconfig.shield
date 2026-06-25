@@ -1,8 +1,5 @@
-config ZMK_SHIELD_DRACULAD
-    bool
-
-config ZMK_SHIELD_DRACULAD_LEFT
+config SHIELD_DRACULAD_LEFT
     def_bool $(shields_list_contains,draculad_left)
 
-config ZMK_SHIELD_DRACULAD_RIGHT
+config SHIELD_DRACULAD_RIGHT
     def_bool $(shields_list_contains,draculad_right)
