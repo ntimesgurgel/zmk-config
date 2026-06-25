@@ -1,5 +1,6 @@
 include:
-  - board: nice_nano
+  - board: promicro_nrf52840//zmk
     shield: draculad_left
-  - board: nice_nano
+
+  - board: promicro_nrf52840//zmk
     shield: draculad_right
