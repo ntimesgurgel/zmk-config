@@ -1,3 +1,5 @@
+name: zmk-config
 build:
-  settings:
-    board_root: .
+  cmake-ext: false
+  kconfig-ext: false
+  board_root: .
