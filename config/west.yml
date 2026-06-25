@@ -9,5 +9,9 @@ manifest:
         remote: zmkfirmware
         revision: main   
         import: app/west.yml
+    
+      - name: zmk-config
+        remote: ntimesgurgel
+        revision: main
     self:
       path: config
