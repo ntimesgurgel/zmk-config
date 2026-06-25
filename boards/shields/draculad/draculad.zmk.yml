@@ -1,0 +1,22 @@
+file_format: "1"
+
+id: draculad
+
+name: DracuLad
+
+type: shield
+
+url: https://github.com/ntimesgurgel/zmk-config
+
+requires:
+  - nice_nano_v2
+
+features:
+  - keys
+  - studio
+  - encoder
+  - bluetooth
+
+siblings:
+  - draculad_left
+  - draculad_right
