@@ -1,9 +1,5 @@
 #include "draculad.dtsi"
 
-&default_transform {
-    col-offset = <5>;
-};
-
 &kscan0 {
     col-gpios =
         <&pro_micro_d 15 GPIO_ACTIVE_HIGH>,
